@@ -1,7 +1,8 @@
 package com.meiji.toutiao.module.base;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by Meiji on 2016/12/27.

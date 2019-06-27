@@ -1,8 +1,9 @@
 package com.meiji.toutiao;
 
 import android.content.Context;
-import android.support.multidex.MultiDexApplication;
-import android.support.v7.app.AppCompatDelegate;
+
+import androidx.appcompat.app.AppCompatDelegate;
+import androidx.multidex.MultiDexApplication;
 
 import com.meiji.toutiao.util.SettingUtil;
 

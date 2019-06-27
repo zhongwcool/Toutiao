@@ -5,7 +5,8 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 import com.meiji.toutiao.R;
 import com.meiji.toutiao.util.SettingUtil;

@@ -2,8 +2,9 @@ package com.meiji.toutiao.module.media.home.tab;
 
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.View;
+
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.meiji.toutiao.Register;
 import com.meiji.toutiao.bean.LoadingBean;

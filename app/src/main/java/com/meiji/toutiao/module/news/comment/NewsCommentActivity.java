@@ -2,7 +2,8 @@ package com.meiji.toutiao.module.news.comment;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+
+import androidx.annotation.Nullable;
 
 import com.meiji.toutiao.InitApp;
 import com.meiji.toutiao.R;

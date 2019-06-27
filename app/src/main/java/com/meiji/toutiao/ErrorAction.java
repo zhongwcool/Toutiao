@@ -1,6 +1,6 @@
 package com.meiji.toutiao;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import io.reactivex.functions.Consumer;
 

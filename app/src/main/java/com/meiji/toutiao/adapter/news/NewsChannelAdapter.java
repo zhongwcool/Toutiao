@@ -3,10 +3,6 @@ package com.meiji.toutiao.adapter.news;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Handler;
-import android.support.v4.view.MotionEventCompat;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -16,6 +12,11 @@ import android.view.animation.TranslateAnimation;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.core.view.MotionEventCompat;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.ItemTouchHelper;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.meiji.toutiao.R;
 import com.meiji.toutiao.bean.news.NewsChannelBean;

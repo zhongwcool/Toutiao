@@ -54,7 +54,8 @@ class PhotoArticlePresenter implements IPhotoArticle.Presenter {
                     // 移除最后一项 数据有重复
                     if (data.size() > 0)
                         data.remove(data.size() - 1);
-                    time = photoArticleBean.getNext().getMax_behot_time();
+                    PhotoArticleBean.NextBean nb = photoArticleBean.getNext();
+                    if (null != nb) time = nb.getMax_behot_time();
                     return Observable.fromIterable(data);
                 })
                 .filter(dataBean -> {

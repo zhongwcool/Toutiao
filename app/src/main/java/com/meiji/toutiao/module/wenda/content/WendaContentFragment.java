@@ -1,11 +1,12 @@
 package com.meiji.toutiao.module.wenda.content;
 
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+
+import androidx.appcompat.widget.Toolbar;
 
 import com.meiji.toutiao.IntentAction;
 import com.meiji.toutiao.R;

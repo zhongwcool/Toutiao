@@ -1,7 +1,6 @@
 package com.meiji.toutiao.module.base;
 
 import android.app.ActivityManager;
-import android.arch.lifecycle.Lifecycle;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -10,10 +9,12 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.lifecycle.Lifecycle;
 
 import com.afollestad.materialdialogs.color.CircleView;
 import com.meiji.toutiao.Constant;

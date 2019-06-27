@@ -2,11 +2,12 @@ package com.meiji.toutiao.widget.imagebrowser;
 
 import android.content.Context;
 import android.os.Handler;
-import android.support.annotation.IntDef;
-import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
+
+import androidx.annotation.IntDef;
+import androidx.annotation.NonNull;
 
 import com.meiji.toutiao.BuildConfig;
 

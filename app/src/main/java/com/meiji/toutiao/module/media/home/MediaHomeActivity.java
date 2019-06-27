@@ -3,15 +3,16 @@ package com.meiji.toutiao.module.media.home;
 import android.content.Intent;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.Snackbar;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
-import android.support.v4.widget.ContentLoadingProgressBar;
-import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.widget.ContentLoadingProgressBar;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.snackbar.Snackbar;
+import com.google.android.material.tabs.TabLayout;
 import com.meiji.toutiao.ErrorAction;
 import com.meiji.toutiao.InitApp;
 import com.meiji.toutiao.R;

@@ -1,14 +1,15 @@
 package com.meiji.toutiao.module.video;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.tabs.TabLayout;
 import com.meiji.toutiao.InitApp;
 import com.meiji.toutiao.R;
 import com.meiji.toutiao.adapter.base.BasePagerAdapter;
@@ -27,8 +28,8 @@ public class VideoTabLayout extends Fragment {
 
     private static VideoTabLayout instance = null;
     private static int pageSize = InitApp.AppContext.getResources().getStringArray(R.array.mobile_video_id).length;
-    private String categoryId[] = InitApp.AppContext.getResources().getStringArray(R.array.mobile_video_id);
-    private String categoryName[] = InitApp.AppContext.getResources().getStringArray(R.array.mobile_video_name);
+    private String[] categoryId = InitApp.AppContext.getResources().getStringArray(R.array.mobile_video_id);
+    private String[] categoryName = InitApp.AppContext.getResources().getStringArray(R.array.mobile_video_name);
     private TabLayout tabLayout;
     private ViewPager viewPager;
     private List<Fragment> fragmentList = new ArrayList<>();

@@ -1,11 +1,13 @@
 package com.meiji.toutiao.widget.behavior;
 
 import android.content.Context;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.View;
+
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.view.ViewCompat;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 /**
  * Created by Meiji on 2017/7/28.
@@ -35,7 +37,7 @@ public class ScrollAwareFABBehavior extends FloatingActionButton.Behavior {
                 dyUnconsumed);
 
         if (dyConsumed > 0 && child.getVisibility() == View.VISIBLE) {
-            child.setVisibility(View.INVISIBLE);
+            child.hide();
         } else if (dyConsumed < 0 && child.getVisibility() != View.VISIBLE) {
             child.show();
         }
